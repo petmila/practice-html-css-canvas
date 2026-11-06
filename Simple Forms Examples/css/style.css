@@ -1,0 +1,95 @@
+:root{
+    --main-color: #12003b; /* Задание кастомного свойства css. Задаем один раз, используем в разных местах */
+}
+
+
+html {
+    font-size: 12px;
+    background-color: var(--main-color); /* Применение кастомного стиля*/
+  }
+
+.title{
+    color: #be11be; 
+    font-family: "Iceland", sans-serif; /* Этот шрифт мы подключили с сайта GoogleFonts в шапке файла index.html */
+    font-size: 28px;
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+}
+
+canvas{
+    background-color: #ffef00;
+    display: block;
+    margin: 0 auto; /* Выровняли canvas по центру страницы */
+}
+
+.menu{
+    display: flex; /* Задали следование кнопок друг за другом */
+    justify-content: center;
+    padding: 0.5rem 0 0.3rem 0;
+}
+
+/* Стиль кнопки в обычном состоянии */
+
+.changeButton{
+    margin: 0.3rem;
+    cursor: pointer;
+    border: 0px;
+    background-color: #ff007f;
+    color: #fff;
+    font-family: "Iceland", sans-serif;
+    font-size: 26px;
+
+    /* Форма шестиугольника */
+    clip-path: polygon(20% 0%, 80% 0%, 100% 50%, 80% 100%, 20% 100%, 0% 50%);
+    transition: background-color 0.3s;
+}
+
+/* Стиль той же кнопки при наведении */
+
+.changeButton:hover{
+    margin: 0.3rem;
+    cursor: pointer;
+    border: 0px;
+    background-color: #ffef00;
+    color: #fff;
+    font-family: "Iceland", sans-serif;
+    font-size: 26px;
+    /* Форма шестиугольника */
+    clip-path: polygon(20% 0%, 80% 0%, 100% 50%, 80% 100%, 20% 100%, 0% 50%);
+    transition: background-color 0.3s;
+}
+
+.clearButton{
+    margin: 0.3rem;
+    cursor: pointer;
+    border: 0px;
+    background-color: #10b3ab;
+    color: #fff;
+    font-family: "Iceland", sans-serif;
+    font-size: 26px;
+    /* Форма шестиугольника */
+    clip-path: polygon(20% 0%, 80% 0%, 100% 50%, 80% 100%, 20% 100%, 0% 50%);
+    transition: background-color 0.3s;
+}
+
+.clearButton:hover{
+    margin: 0.3rem;
+    cursor: pointer;
+    border: 0px;
+    background-color: #ffef00;
+    color: #fff;
+    font-family: "Iceland", sans-serif;
+    font-size: 26px;
+    /* Форма шестиугольника */
+    clip-path: polygon(20% 0%, 80% 0%, 100% 50%, 80% 100%, 20% 100%, 0% 50%);
+    transition: background-color 0.3s;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}

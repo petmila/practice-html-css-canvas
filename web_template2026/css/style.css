@@ -1,0 +1,11 @@
+html{
+    background-color: rgb(250, 192, 192);
+}
+
+h1{
+    color: #be11be; 
+    font-family: "Iceland", sans-serif; /* Этот шрифт мы подключили с сайта GoogleFonts в шапке файла index.html */
+    font-size: 28px;
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+}
