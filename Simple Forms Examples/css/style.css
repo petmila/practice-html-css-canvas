@@ -1,5 +1,5 @@
 :root{
-    --main-color: #12003b; /* Задание кастомного свойства css. Задаем один раз, используем в разных местах */
+    --main-color: #29072c; /* Задание кастомного свойства css. Задаем один раз, используем в разных местах */
 }
 
 
@@ -35,10 +35,10 @@ canvas{
     cursor: pointer;
     border: 0px;
     background-color: #ff007f;
-    color: #fff;
+    color: #12003b;
     font-family: "Iceland", sans-serif;
     font-size: 26px;
-
+    padding: 15px;
     /* Форма шестиугольника */
     clip-path: polygon(20% 0%, 80% 0%, 100% 50%, 80% 100%, 20% 100%, 0% 50%);
     transition: background-color 0.3s;
@@ -51,9 +51,10 @@ canvas{
     cursor: pointer;
     border: 0px;
     background-color: #ffef00;
-    color: #fff;
+    color: #12003b;
     font-family: "Iceland", sans-serif;
     font-size: 26px;
+    padding: 15px;
     /* Форма шестиугольника */
     clip-path: polygon(20% 0%, 80% 0%, 100% 50%, 80% 100%, 20% 100%, 0% 50%);
     transition: background-color 0.3s;
@@ -64,9 +65,10 @@ canvas{
     cursor: pointer;
     border: 0px;
     background-color: #10b3ab;
-    color: #fff;
+    color: #12003b;
     font-family: "Iceland", sans-serif;
     font-size: 26px;
+    padding: 15px;
     /* Форма шестиугольника */
     clip-path: polygon(20% 0%, 80% 0%, 100% 50%, 80% 100%, 20% 100%, 0% 50%);
     transition: background-color 0.3s;
@@ -77,9 +79,10 @@ canvas{
     cursor: pointer;
     border: 0px;
     background-color: #ffef00;
-    color: #fff;
+    color: #12003b;
     font-family: "Iceland", sans-serif;
     font-size: 26px;
+    padding: 15px;
     /* Форма шестиугольника */
     clip-path: polygon(20% 0%, 80% 0%, 100% 50%, 80% 100%, 20% 100%, 0% 50%);
     transition: background-color 0.3s;
